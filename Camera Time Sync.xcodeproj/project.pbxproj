@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB02144C1ECAC13700B84387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02144B1ECAC13700B84387 /* AppDelegate.swift */; };
+		DB02144E1ECAC13700B84387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02144D1ECAC13700B84387 /* ViewController.swift */; };
+		DB0214511ECAC13700B84387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB02144F1ECAC13700B84387 /* Main.storyboard */; };
+		DB0214531ECAC13700B84387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0214521ECAC13700B84387 /* Assets.xcassets */; };
+		DB0214561ECAC13700B84387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0214541ECAC13700B84387 /* LaunchScreen.storyboard */; };
+		DB0214611ECAC13700B84387 /* Camera_Time_SyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0214601ECAC13700B84387 /* Camera_Time_SyncTests.swift */; };
+		DB02146C1ECAC13700B84387 /* Camera_Time_SyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02146B1ECAC13700B84387 /* Camera_Time_SyncUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB02145D1ECAC13700B84387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0214401ECAC13700B84387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0214471ECAC13700B84387;
+			remoteInfo = "Camera Time Sync";
+		};
+		DB0214681ECAC13700B84387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0214401ECAC13700B84387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0214471ECAC13700B84387;
+			remoteInfo = "Camera Time Sync";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0214481ECAC13700B84387 /* Camera Time Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Time Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB02144B1ECAC13700B84387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB02144D1ECAC13700B84387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB0214501ECAC13700B84387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB0214521ECAC13700B84387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB0214551ECAC13700B84387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB0214571ECAC13700B84387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB02145C1ECAC13700B84387 /* Camera Time SyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camera Time SyncTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0214601ECAC13700B84387 /* Camera_Time_SyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Time_SyncTests.swift; sourceTree = "<group>"; };
+		DB0214621ECAC13700B84387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0214671ECAC13700B84387 /* Camera Time SyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camera Time SyncUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB02146B1ECAC13700B84387 /* Camera_Time_SyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Time_SyncUITests.swift; sourceTree = "<group>"; };
+		DB02146D1ECAC13700B84387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0214451ECAC13700B84387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0214591ECAC13700B84387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0214641ECAC13700B84387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB02143F1ECAC13700B84387 = {
+			isa = PBXGroup;
+			children = (
+				DB02144A1ECAC13700B84387 /* Camera Time Sync */,
+				DB02145F1ECAC13700B84387 /* Camera Time SyncTests */,
+				DB02146A1ECAC13700B84387 /* Camera Time SyncUITests */,
+				DB0214491ECAC13700B84387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0214491ECAC13700B84387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0214481ECAC13700B84387 /* Camera Time Sync.app */,
+				DB02145C1ECAC13700B84387 /* Camera Time SyncTests.xctest */,
+				DB0214671ECAC13700B84387 /* Camera Time SyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB02144A1ECAC13700B84387 /* Camera Time Sync */ = {
+			isa = PBXGroup;
+			children = (
+				DB02144B1ECAC13700B84387 /* AppDelegate.swift */,
+				DB02144D1ECAC13700B84387 /* ViewController.swift */,
+				DB02144F1ECAC13700B84387 /* Main.storyboard */,
+				DB0214521ECAC13700B84387 /* Assets.xcassets */,
+				DB0214541ECAC13700B84387 /* LaunchScreen.storyboard */,
+				DB0214571ECAC13700B84387 /* Info.plist */,
+			);
+			path = "Camera Time Sync";
+			sourceTree = "<group>";
+		};
+		DB02145F1ECAC13700B84387 /* Camera Time SyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0214601ECAC13700B84387 /* Camera_Time_SyncTests.swift */,
+				DB0214621ECAC13700B84387 /* Info.plist */,
+			);
+			path = "Camera Time SyncTests";
+			sourceTree = "<group>";
+		};
+		DB02146A1ECAC13700B84387 /* Camera Time SyncUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB02146B1ECAC13700B84387 /* Camera_Time_SyncUITests.swift */,
+				DB02146D1ECAC13700B84387 /* Info.plist */,
+			);
+			path = "Camera Time SyncUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0214471ECAC13700B84387 /* Camera Time Sync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0214701ECAC13700B84387 /* Build configuration list for PBXNativeTarget "Camera Time Sync" */;
+			buildPhases = (
+				DB0214441ECAC13700B84387 /* Sources */,
+				DB0214451ECAC13700B84387 /* Frameworks */,
+				DB0214461ECAC13700B84387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Camera Time Sync";
+			productName = "Camera Time Sync";
+			productReference = DB0214481ECAC13700B84387 /* Camera Time Sync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB02145B1ECAC13700B84387 /* Camera Time SyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0214731ECAC13700B84387 /* Build configuration list for PBXNativeTarget "Camera Time SyncTests" */;
+			buildPhases = (
+				DB0214581ECAC13700B84387 /* Sources */,
+				DB0214591ECAC13700B84387 /* Frameworks */,
+				DB02145A1ECAC13700B84387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB02145E1ECAC13700B84387 /* PBXTargetDependency */,
+			);
+			name = "Camera Time SyncTests";
+			productName = "Camera Time SyncTests";
+			productReference = DB02145C1ECAC13700B84387 /* Camera Time SyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB0214661ECAC13700B84387 /* Camera Time SyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0214761ECAC13700B84387 /* Build configuration list for PBXNativeTarget "Camera Time SyncUITests" */;
+			buildPhases = (
+				DB0214631ECAC13700B84387 /* Sources */,
+				DB0214641ECAC13700B84387 /* Frameworks */,
+				DB0214651ECAC13700B84387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0214691ECAC13700B84387 /* PBXTargetDependency */,
+			);
+			name = "Camera Time SyncUITests";
+			productName = "Camera Time SyncUITests";
+			productReference = DB0214671ECAC13700B84387 /* Camera Time SyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0214401ECAC13700B84387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alexander Brodie";
+				TargetAttributes = {
+					DB0214471ECAC13700B84387 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB02145B1ECAC13700B84387 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB0214471ECAC13700B84387;
+					};
+					DB0214661ECAC13700B84387 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB0214471ECAC13700B84387;
+					};
+				};
+			};
+			buildConfigurationList = DB0214431ECAC13700B84387 /* Build configuration list for PBXProject "Camera Time Sync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB02143F1ECAC13700B84387;
+			productRefGroup = DB0214491ECAC13700B84387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0214471ECAC13700B84387 /* Camera Time Sync */,
+				DB02145B1ECAC13700B84387 /* Camera Time SyncTests */,
+				DB0214661ECAC13700B84387 /* Camera Time SyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0214461ECAC13700B84387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0214561ECAC13700B84387 /* LaunchScreen.storyboard in Resources */,
+				DB0214531ECAC13700B84387 /* Assets.xcassets in Resources */,
+				DB0214511ECAC13700B84387 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB02145A1ECAC13700B84387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0214651ECAC13700B84387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0214441ECAC13700B84387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB02144E1ECAC13700B84387 /* ViewController.swift in Sources */,
+				DB02144C1ECAC13700B84387 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0214581ECAC13700B84387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0214611ECAC13700B84387 /* Camera_Time_SyncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0214631ECAC13700B84387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB02146C1ECAC13700B84387 /* Camera_Time_SyncUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB02145E1ECAC13700B84387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0214471ECAC13700B84387 /* Camera Time Sync */;
+			targetProxy = DB02145D1ECAC13700B84387 /* PBXContainerItemProxy */;
+		};
+		DB0214691ECAC13700B84387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0214471ECAC13700B84387 /* Camera Time Sync */;
+			targetProxy = DB0214681ECAC13700B84387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB02144F1ECAC13700B84387 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0214501ECAC13700B84387 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB0214541ECAC13700B84387 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0214551ECAC13700B84387 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB02146E1ECAC13700B84387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB02146F1ECAC13700B84387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0214711ECAC13700B84387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Camera Time Sync/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexBrodie.Camera-Time-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB0214721ECAC13700B84387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Camera Time Sync/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexBrodie.Camera-Time-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB0214741ECAC13700B84387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Camera Time SyncTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexBrodie.Camera-Time-SyncTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camera Time Sync.app/Camera Time Sync";
+			};
+			name = Debug;
+		};
+		DB0214751ECAC13700B84387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Camera Time SyncTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexBrodie.Camera-Time-SyncTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camera Time Sync.app/Camera Time Sync";
+			};
+			name = Release;
+		};
+		DB0214771ECAC13700B84387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Camera Time SyncUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexBrodie.Camera-Time-SyncUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Camera Time Sync";
+			};
+			name = Debug;
+		};
+		DB0214781ECAC13700B84387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Camera Time SyncUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexBrodie.Camera-Time-SyncUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Camera Time Sync";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0214431ECAC13700B84387 /* Build configuration list for PBXProject "Camera Time Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB02146E1ECAC13700B84387 /* Debug */,
+				DB02146F1ECAC13700B84387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0214701ECAC13700B84387 /* Build configuration list for PBXNativeTarget "Camera Time Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0214711ECAC13700B84387 /* Debug */,
+				DB0214721ECAC13700B84387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0214731ECAC13700B84387 /* Build configuration list for PBXNativeTarget "Camera Time SyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0214741ECAC13700B84387 /* Debug */,
+				DB0214751ECAC13700B84387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0214761ECAC13700B84387 /* Build configuration list for PBXNativeTarget "Camera Time SyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0214771ECAC13700B84387 /* Debug */,
+				DB0214781ECAC13700B84387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0214401ECAC13700B84387 /* Project object */;
+}
