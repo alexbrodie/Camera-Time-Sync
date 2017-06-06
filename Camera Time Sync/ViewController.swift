@@ -100,10 +100,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func getQrMessage() -> String {
         let date = getDateRfc3339()
-        var message = "{date:'\(date)'"
+        var message = "{\"date\":\"\(date)\""
         
         if let loc = locMgr?.location {
-            message += ",lat=\(loc.coordinate.latitude),lon=\(loc.coordinate.longitude)"
+            message += ",\"lat\":\(loc.coordinate.latitude),\"lon\":\(loc.coordinate.longitude)"
         }
         
         message += "}"
