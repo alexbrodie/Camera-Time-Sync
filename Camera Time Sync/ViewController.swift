@@ -18,7 +18,7 @@ func makeQr(message: String, width: CGFloat, height: CGFloat) -> UIImage {
     // Scale to fit
     let dims = filter.outputImage!.extent;
     let trans = CGAffineTransform(scaleX: width / dims.width, y: height / dims.height)
-    let output = filter.outputImage!.applying(trans)
+    let output = filter.outputImage!.transformed(by: trans)
     
     // Complete!
     return UIImage(ciImage: output)
